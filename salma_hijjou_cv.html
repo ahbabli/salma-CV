@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Salma Hijjou – CV</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: 'Barlow', 'Arial', sans-serif;
+    background: #d5d9de;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+    font-size: 11px;
+  }
+
+  .page {
+    width: 780px;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  }
+
+  /* ══ HEADER ══ */
+  .header {
+    text-align: center;
+    padding: 32px 40px 18px;
+    background: #fff;
+  }
+  .header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #0d2340;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  .header h2 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #0d2340;
+    text-transform: uppercase;
+    margin-top: 7px;
+  }
+  .header-line {
+    height: 2px;
+    background: #0d2340;
+    margin-top: 18px;
+  }
+
+  /* ══ BODY ══ */
+  .body {
+    display: flex;
+  }
+
+  /* ══ LEFT COL ══ */
+  .left {
+    width: 270px;
+    flex-shrink: 0;
+    border-right: 1px solid #c5cdd8;
+    padding: 22px 22px 30px 22px;
+  }
+
+  /* ══ RIGHT COL ══ */
+  .right {
+    flex: 1;
+    padding: 22px 26px 30px 26px;
+  }
+
+  /* ══ SECTION TITLES ══ */
+  .sec-title {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #0d2340;
+    text-transform: uppercase;
+    background: #dde6f0;
+    display: inline-block;
+    padding: 1px 5px;
+    margin-bottom: 10px;
+  }
+
+  /* ══ HORIZONTAL DIVIDERS ══ */
+  .hdiv {
+    border: none;
+    border-top: 1px solid #b0bcc9;
+    margin: 16px 0;
+  }
+  .hdiv-right {
+    border: none;
+    border-top: 1px solid #b0bcc9;
+    margin: 18px 0;
+  }
+
+  /* ══ CONTACT ══ */
+  .contact-block {
+    margin-bottom: 0;
+  }
+  .contact-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 11px;
+  }
+  .contact-row svg {
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .contact-text {
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #0d2340;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+  .contact-text a { color: #0d2340; text-decoration: none; }
+
+  /* ══ EDUCATION ══ */
+  .edu-degree {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #0d2340;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+  }
+  .edu-sub {
+    font-size: 10.5px;
+    font-style: italic;
+    color: #0d2340;
+    line-height: 1.6;
+    margin-top: 2px;
+  }
+
+  /* ══ SKILLS ══ */
+  .skill-line {
+    font-size: 10.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #0d2340;
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+
+  /* ══ LANGUAGES ══ */
+  .lang-line {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #0d2340;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+
+  /* ══ INTERESTS ══ */
+  .body-text {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #0d2340;
+    line-height: 1.7;
+  }
+
+  /* ══ EXPERIENCE ══ */
+  .job-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #0d2340;
+    margin-bottom: 2px;
+  }
+  .job-meta {
+    font-size: 10.5px;
+    font-style: italic;
+    color: #0d2340;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .job-line {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #0d2340;
+    line-height: 1.6;
+    margin-bottom: 3px;
+  }
+  .job-line strong {
+    font-weight: 700;
+  }
+
+  .proj-title {
+    font-size: 10.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: #0d2340;
+    margin-bottom: 1px;
+  }
+  .proj-stack {
+    font-size: 10px;
+    font-style: italic;
+    color: #3a5070;
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Salma Hijjou</h1>
+    <h2>Stagiaire en Ressources Humaines &nbsp;·&nbsp; Administration Scolaire</h2>
+    <div class="header-line"></div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- ══ LEFT COLUMN ══ -->
+    <div class="left">
+
+      <!-- CONTACT -->
+      <div class="contact-block">
+
+        <div class="contact-row">
+          <!-- location -->
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="#0d2340"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <span class="contact-text"> ouazzane </span>
+        </div>
+
+        <div class="contact-row">
+          <!-- phone -->
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#0d2340" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          <span class="contact-text">0701622068</span>
+        </div>
+
+        <div class="contact-row">
+          <!-- email -->
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#0d2340" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <span class="contact-text">hijjou.salmaa@gmail.com</span>
+        </div>
+
+      </div><!-- /contact -->
+
+      <hr class="hdiv">
+
+      <!-- FORMATION -->
+      <div>
+        <div class="sec-title">Formation</div>
+        <div class="edu-degree">Licence en Droit Privé</div>
+        <div class="edu-sub">
+          Université Abdelmalek Essaâdi<br>
+          2022 – 2025
+        </div>
+        <br>
+        <div class="edu-degree">Baccalauréat Sciences Humaines</div>
+        <div class="edu-sub">2022</div>
+      </div>
+
+      <hr class="hdiv">
+
+      <!-- COMPÉTENCES -->
+      <div>
+        <div class="sec-title">Compétences</div>
+        <div class="skill-line">- Suivi des dossiers RH &amp; archivage</div>
+        <div class="skill-line">- Assistance administrative</div>
+        <div class="skill-line">- Bonne organisation du travail</div>
+        <div class="skill-line">- Communication claire et positive</div>
+        <div class="skill-line">- Capacité à travailler en équipe</div>
+      </div>
+
+      <hr class="hdiv">
+
+      <!-- LANGUES -->
+      <div>
+        <div class="sec-title">Langues</div>
+        <div class="lang-line">Arabe – <strong>Langue maternelle</strong></div>
+        <div class="lang-line">Anglais – <strong>Bon niveau</strong></div>
+        <div class="lang-line">Français – <strong>Niveau moyen</strong></div>
+      </div>
+
+      <hr class="hdiv">
+
+      <!-- INTÉRÊTS -->
+      <div>
+        <div class="sec-title">Intérêts</div>
+        <p class="body-text">Nature &nbsp;·&nbsp; Voyage &nbsp;·&nbsp; Cuisine &nbsp;·&nbsp; Lecture</p>
+      </div>
+
+    </div><!-- /left -->
+
+    <!-- ══ RIGHT COLUMN ══ -->
+    <div class="right">
+
+      <!-- PROFIL -->
+      <div class="sec-title">Profil</div>
+      <p class="body-text">
+        Stagiaire organisée et motivée en Ressources Humaines et
+        Administration Scolaire. Compétente pour le suivi des dossiers RH,
+        l'archivage des documents et l'assistance administrative. Désireuse
+        de mettre ses compétences au service d'une équipe dynamique et de
+        contribuer au bon fonctionnement des services administratifs.
+      </p>
+
+      <hr class="hdiv-right">
+
+      <!-- EXPÉRIENCE PROFESSIONNELLE -->
+      <div class="sec-title">Expérience Professionnelle</div>
+
+      <div class="job-title">Stage Administratif</div>
+      <div class="job-meta">Faculté des Lettres et des Sciences Humaines</div>
+      <p class="job-line">Suivi des <strong>dossiers administratifs</strong> et gestion de l'archivage.</p>
+      <p class="job-line">Assistance aux tâches quotidiennes du <strong>secrétariat</strong>.</p>
+
+      <br>
+
+      <div class="job-title">Stage Administratif</div>
+      <div class="job-meta">Complexe Éducatif Aya</div>
+      <p class="job-line">Participation à la <strong>gestion administrative</strong> de l'établissement scolaire.</p>
+      <p class="job-line">Organisation et classement des <strong>documents scolaires</strong>.</p>
+
+      <br>
+
+      <div class="job-title">Stage Professionnel</div>
+      <div class="job-meta">Avec une professeure d'anglais</div>
+      <p class="job-line">Observation et assistance dans la <strong>préparation pédagogique</strong>.</p>
+      <p class="job-line">Appui à l'<strong>encadrement des élèves</strong> lors des séances.</p>
+
+      <hr class="hdiv-right">
+
+      <!-- AUTRES EXPÉRIENCES -->
+      <div class="sec-title">Autres Expériences</div>
+
+      <div class="job-title">Gestion de Soutien Scolaire</div>
+      <div class="job-meta">Soutien intensif pour le primaire – 3 mois</div>
+      <p class="job-line">Encadrement et <strong>suivi des élèves</strong> du primaire.</p>
+      <p class="job-line">Organisation des séances et évaluation des <strong>progrès scolaires</strong>.</p>
+
+      <br>
+
+      <div class="job-title">Conception et Animation</div>
+      <div class="job-meta">Programmes de soutien en anglais et français</div>
+      <p class="job-line">Conception de <strong>programmes pédagogiques</strong> adaptés au niveau des apprenants.</p>
+      <p class="job-line">Animation de séances de soutien en <strong>anglais</strong> et <strong>français</strong>.</p>
+
+      <hr class="hdiv-right">
+
+      <!-- CERTIFICATIONS -->
+      <div class="sec-title">Certifications</div>
+      <p class="job-line"><strong>Marketing Digital</strong> – Formation certifiante</p>
+      <p class="job-line"><strong>Informatique &amp; Bureautique</strong> – Formation certifiante</p>
+
+    </div><!-- /right -->
+
+  </div><!-- /body -->
+</div>
+</body>
+</html>
